@@ -1,3 +1,3 @@
-export const userApi="http://localhost:3000"
-export const agentApi="http://localhost:3000/agent"
-export const adminApi="http://localhost:3000/admin"
+export const userApi="https://helpdesk-back-end.onrender.com"
+export const agentApi="https://helpdesk-back-end.onrender.com/agent"
+export const adminApi="https://helpdesk-back-end.onrender.com/admin"
