@@ -42,7 +42,7 @@ export default function Usersignup() {
         const response = await axios.post(`${userApi}/signup`, formValue);
 
         if (response.data.success) {
-            toast.success("User registered successfully");
+            toast.success("User registered successfully and Please Login");
             setFormValue(initialValue); 
         } else {
             toast.error(response.data.message); 
